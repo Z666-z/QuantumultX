@@ -10,7 +10,7 @@
 
 [rewrite_local]
 
-^https:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/xt.js
+^https:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription url script-response-body https://raw.githubusercontent.com/Z666-z/QuantumultX/main/Crack/xt.js
 
 [mitm] 
 hostname = commerce-api.faceu.mobi
