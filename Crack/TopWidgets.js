@@ -9,7 +9,7 @@
 
 [rewrite_local]
 
-^https:\/\/top-widgets-api\.xiaozujian\.com\/api\/app\/config\/userConfig url script-response-body https://raw.githubusercontent.com/Renamnt/QuantumultX/main/Crack/TopWidgets.js
+^https:\/\/top-widgets-api\.xiaozujian\.com\/api\/app\/config\/userConfig url script-response-body https://raw.githubusercontent.com/Z666-z/QuantumultX/main/Crack/TopWidgets.js
 
 [mitm] 
 
