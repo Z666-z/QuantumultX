@@ -1,6 +1,6 @@
 *******************************
 [rewrite_local]
-^http?:\/\/39\.106\.98\.80.*?.*? url script-request-header https://raw.githubusercontent.com/Z666-z/QnuantumultX/main/Crack/hunting
+^http?:\/\/39\.106\.98\.80.*?.*? url script-request-header https://raw.githubusercontent.com/Z666-z/QnuantumultX/main/Crack/yunting
 .js
 
 ^http?:\/\/39\.106\.98\.80.*?*? url script-response-body https://raw.githubusercontent.com/Z666-z/QnuantumultX/main/Crack/yunting.is
