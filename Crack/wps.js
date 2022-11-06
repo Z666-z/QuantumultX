@@ -1,48 +1,37 @@
-/******************************
-脚本功能：WPS Office+解锁VIP
-软件版本：11.26.0
-更新时间：2022-9-9
+var obj = JSON.parse($response.body);
 
+var id = obj.userid;
 
-*******************************
-
-[rewrite_local]
-^https?:\/\/account\.wps\.cn\/api\/users url script-response-body https://raw.githubusercontent.com/Z666-z/QuantumultX/main/Crack/wps.js
-
-[mitm]
-hostname = account.wps.cn
-
-**************************/
-
-var body = JSON.parse($response.body);
-var obj = {
+obj = {
   exp: 0,
-  level: 3,
+  level: 99,
   privilege: [
-    { spid: "data_recover", times: 0, expire_time: 4102415999 },
-    { spid: "ocr", times: 0, expire_time: 4102415999 },
-    { spid: "pdf2doc", times: 0, expire_time: 4102415999 },
-    { spid: "pdf_merge", times: 0, expire_time: 4102415999 },
-    { spid: "pdf_sign", times: 0, expire_time: 4102415999 },
-    { spid: "pdf_split", times: 0, expire_time: 4102415999 }
+    { spid: "data_recover", times: 0, expire_time: 1631619709 },
+    { spid: "ocr", times: 0, expire_time: 1631619709 },
+    { spid: "pdf2doc", times: 0, expire_time: 1631619709 },
+    { spid: "pdf_merge", times: 0, expire_time: 1631619709 },
+    { spid: "pdf_sign", times: 0, expire_time: 1631619709 },
+    { spid: "pdf_split", times: 0, expire_time: 1631619709 }
   ],
   result: "ok",
   total_buy: 0,
   total_cost: -30,
-  userid: body.userid,
+  userid: 0000,
   vip: {
     name: "超级会员",
     has_ad: 0,
     memberid: 40,
-    expire_time: 4102415999,
+    expire_time: 1631619709,
     enabled: [
-      { memberid: 40, name: "超级会员", expire_time: 4102415999 },
-      { memberid: 20, name: "WPS会员", expire_time: 4102415999 },
-      { memberid: 12, name: "稻壳会员", expire_time: 4102415999 }
+      { memberid: 40, name: "超级会员", expire_time: 1631619709 },
+      { memberid: 20, name: "WPS会员", expire_time: 1631619709 },
+      { memberid: 12, name: "稻壳会员", expire_time: 1631619709 }
     ]
   },
   wealth: 0,
-  expire_time: 4102415999
+  expire_time: 1631619709
 };
+
+obj.userid = id;
 
 $done({ body: JSON.stringify(obj) });
