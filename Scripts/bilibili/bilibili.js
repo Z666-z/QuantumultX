@@ -26,7 +26,7 @@ QuantumultX 远程脚本配置:
 
 [task_local]
 # B站每日等级任务
-30 8 * * * https://raw.githubusercontent.com/Z666-z/QuantumultX/main//Scripts/bilibili/bilibili.js, tag=B站每日等级任务, img-url=https://raw.githubusercontent.com/Z666-z/QuantumultX/main/Scripts/bilibili/bilibili.png, enabled=true
+30 8 * * * https://raw.githubusercontent.com/Z666-z/QuantumultX/main/Scripts/bilibili/bilibili.js, tag=B站每日等级任务, img-url=https://raw.githubusercontent.com/Z666-z/QuantumultX/main/Scripts/bilibili/bilibili.png, enabled=true
 
 [rewrite_remote]
 # B站获取Cookie(支持两种方式)
