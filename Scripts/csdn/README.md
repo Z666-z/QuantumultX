@@ -16,9 +16,9 @@
 
 [Script]
 # 注意获取Cookie有两条脚本
-http-request ^https:\/\/passport.csdn.net\/v2\/api\/app\/login\/checkAndRefreshToken script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/csdn/csdn.cookie.js
-http-request ^https:\/\/gw.csdn.net\/mini-app\/v2\/lucky_draw\/login\/sign_in\? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/csdn/csdn.cookie.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/csdn/csdn.js
+http-request ^https:\/\/passport.csdn.net\/v2\/api\/app\/login\/checkAndRefreshToken script-path=https://raw.githubusercontent.com/Z666-z/Scripts/main/csdn/csdn.cookie.js
+http-request ^https:\/\/gw.csdn.net\/mini-app\/v2\/lucky_draw\/login\/sign_in\? script-path=https://raw.githubusercontent.com/Z666-z/Scripts/main/csdn/csdn.cookie.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/Z666-z/Scripts/main/csdn/csdn.js
 ```
 
 ## 配置 (QuanX)
