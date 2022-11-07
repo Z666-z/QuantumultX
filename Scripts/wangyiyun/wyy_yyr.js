@@ -12,7 +12,7 @@
  hostname = music.163.com
  ========================================
  [task_local]
- 10 10 * * * https://raw.githubusercontent.com/laoxinH/MyScript/main/Quantumult/wangyiyun/wyy_yyr.js, tag=网易云音乐人, img-url=https://github.com/laoxinH/MyScript/blob/main/Quantumult/wangyiyun/icon.png?raw=true?raw=true, enabled=true
+ 10 10 * * * https://raw.githubusercontent.com/Z666-z/QuantumultX/main/Scripts/wangyiyun/wyy_yyr.js, tag=网易云音乐人, img-url=https://github.com/Z666-z/QuantumultX/main/Scripts/wangyiyun/icon.png?raw=true?raw=true, enabled=true
  =======boxjs订阅地址=======
  https://raw.githubusercontent.com/laoxinH/MyScript/main/boxjs/laoxin.boxjs.json
  */
