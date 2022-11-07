@@ -9,8 +9,8 @@
 gameapi.hellobike.com
 
 [Script]
-http-request ^https:\/\/gameapi\.hellobike\.com\/api script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js, requires-body=true
-cron "5 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js
+http-request ^https:\/\/gameapi\.hellobike\.com\/api script-path=https://raw.githubusercontent.com/Z666-z/QuantumultX/main/Scripts/halouchuxing/halouchuxing.js, requires-body=true
+cron "5 0 * * *" script-path=https://raw.githubusercontent.com//Z666-z/QuantumultX/main/Scripts/halouchuxing/halouchuxing.js
 ```
 
 ## 配置 (QuanX)
@@ -21,17 +21,17 @@ gameapi.hellobike.com
 
 [rewrite_local]
 # [商店版]
-^https:\/\/gameapi\.hellobike\.com\/api url script-request-body hellobike/hellobike.js
+^https:\/\/gameapi\.hellobike\.com\/api url script-request-body halouchuxing/halouchuxing.js
 
 # [TestFlight]
-^https:\/\/gameapi\.hellobike\.com\/api url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js
+^https:\/\/gameapi\.hellobike\.com\/api url script-request-body https://raw.githubusercontent.com/Z666-z/QuantumultX/main/Scripts/halouchuxing/halouchuxing.js
 
 [task_local]
 # [商店版]
-5 0 * * * hellobike/hellobike.js
+5 0 * * * halouchuxing/halouchuxing.js
 
 # [TestFlight]
-5 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js
+5 0 * * * https://raw.githubusercontent.com/Z666-z/QuantumultX/main/Scripts/halouchuxing/halouchuxing.js
 ```
 
 ## 说明
