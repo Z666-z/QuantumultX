@@ -12,7 +12,7 @@
 
 [mitm] 
 
-hostname = shimo.im
+hostname=shimo.im
 
 *******************************/
 
