@@ -6,7 +6,7 @@ author      kk pp
 
 
 [rewrite_local]
-^https?:\/\/api.coolapk.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList) url script-response-body https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/coolapk.js
+^https?:\/\/api.coolapk.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList) url script-response-body https://raw.githubusercontent.com/Z666-z/QuantumultX/main/Scripts/kuan.js
 
 [mitm]
 hostname = api.coolapk.com
