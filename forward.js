@@ -2,7 +2,7 @@
  * Quantumult X 配置
  * 
  * [rewrite_local]
- * ^https://fluxapi\.vvebo\.vip/v1/purchase/iap/subscription url script-analyze-echo-response https://raw.githubusercontent.com/Z666-z/QnuantumultX/main/forward.js
+ * ^https://fluxapi\.vvebo\.vip/v1/purchase/iap/subscription url script-analyze-echo-response https://raw.githubusercontent.com/Z666-z/QuantumultX/refs/heads/main/forward.js
  * 
  * [mitm]
  * hostname = fluxapi.vvebo.vip
